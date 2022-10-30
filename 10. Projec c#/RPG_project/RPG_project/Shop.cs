@@ -8,7 +8,7 @@ namespace RPG_project
 {
     public class Shop
     {
-        public static int[] shop(int[] character, int maxMana, int mxaHp)
+        public static int[] shop(int[] character, int mxaHp, int maxMana)
         {
             Console.WriteLine("Witaj w moim sklepie!!!");
             Console.WriteLine("1 - heal 2g \t 2 - upHp - 5g \t 3 - upAtac 3g \t 4 - upMana 3g \t dowolny klawisz - wyjdz");
