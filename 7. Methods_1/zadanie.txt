@@ -1,0 +1,11 @@
+Wykonaj kalkulator, który będzie zawierał 40 metod:
+
+10 Metoda void (przyjmuje argumenty).
+
+10 Metoda void (pobiera argumenty od użytkownika).
+
+10 Metoda double (przyjmuje argumenty).
+
+10 Metoda double (pobiera argumenty od użytkownika)
+
+Umieść metody w nowej klasie.

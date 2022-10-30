@@ -1,0 +1,8 @@
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\bin\Debug\RPG_project.exe.config
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\bin\Debug\RPG_project.exe
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\bin\Debug\RPG_project.pdb
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\obj\Debug\RPG_project.csproj.AssemblyReference.cache
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\obj\Debug\RPG_project.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\obj\Debug\RPG_project.csproj.CoreCompileInputs.cache
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\obj\Debug\RPG_project.exe
+C:\Users\kaelt\OneDrive\Pulpit\RPG_project\RPG_project\obj\Debug\RPG_project.pdb
