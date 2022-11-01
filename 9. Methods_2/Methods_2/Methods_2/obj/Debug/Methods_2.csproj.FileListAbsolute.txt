@@ -5,3 +5,11 @@ C:\Users\Nubi\Desktop\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.
 C:\Users\Nubi\Desktop\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.csproj.CoreCompileInputs.cache
 C:\Users\Nubi\Desktop\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.exe
 C:\Users\Nubi\Desktop\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.pdb
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\bin\Debug\Methods_2.exe.config
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\bin\Debug\Methods_2.exe
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\bin\Debug\Methods_2.pdb
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.csproj.AssemblyReference.cache
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.csproj.CoreCompileInputs.cache
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.exe
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\9. Methods_2\Methods_2\Methods_2\obj\Debug\Methods_2.pdb
