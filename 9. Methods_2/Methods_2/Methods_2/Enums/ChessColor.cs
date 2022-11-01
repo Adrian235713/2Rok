@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Methods_2
+namespace Methods_2.Enums
 {
-    class Program
+    public enum ChessColor
     {
-        static void Main(string[] args)
-        {
-        }
+        WHITE,
+        BLACK
     }
 }
