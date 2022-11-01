@@ -28,6 +28,15 @@ namespace Methods_2
             Console.WriteLine("---------------------------------------------");
             double[] xxx =  {5,6,7,8,10};
             exercise.Exercise6Iteration(exercise.Exercise6(xxx));
+            Console.WriteLine("---------------------------------------------");
+            exercise.Exercise7Iteration(exercise.Exercise7(1,20));
+            Console.WriteLine("---------------------------------------------");
+            exercise.Exercise8("6,8,10,12", 20);
+            Console.WriteLine("---------------------------------------------");
+
+            Console.WriteLine("---------------------------------------------");
+            exercise.Exercise10(10);
+            Console.WriteLine("---------------------------------------------");
             Console.ReadKey();
         }
     }

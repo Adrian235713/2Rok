@@ -102,21 +102,83 @@ namespace Methods_2.MyMethods
             {
                 Console.Write($"{elment}\t");
             }
+            Console.WriteLine();
         }
-
-
         //zad7.Napisz funkcję co generuje generuje tabelę z losowymi wartościami z przedziału k i b
 
+        public int[] Exercise7(int k, int b)
+        {
+            Random rnd = new Random();
+            int[] array = new int[rnd.Next(10,20)];
+            for(int i = 0; i < array.Length; i++)
+            {
+                array[i] = rnd.Next(k,b);
+            }
+            return array;
+        }
 
-        //zad8.Napisz funkcję co przyjmuje(2 argumenty ) syringa np 6,8,10,12 i n.
+        public void Exercise7Iteration(int[] array)
+        {
+            foreach (int elment in array)
+            {
+                Console.Write($"{elment} ");
+            }
+            Console.WriteLine();
+        }
+        //zad8.Napisz funkcję co przyjmuje(2 argumenty ) stringa np 6,8,10,12 i n.
         //Na podstawie tego wyświetli n elementów (w jednej linijce ciągu arytmetycznego).
 
-        //zad9.Napisz funkcję co przyjmuje(2 argumenty ) syringa np 3,9,27, 81  i n.
+        public void Exercise8(string inp, int n)
+        {
+            string[] array = inp.Split(',');
+            int element1 = int.Parse(array[0]);
+            int element2 = int.Parse(array[1]);
+            int increase = element2 - element1;
+            Console.Write($"{element1} ");
+            while (n > 0)
+            {
+                Console.Write($"{element1 + increase} ");
+                element1 += increase;
+                n--;
+            }
+            Console.WriteLine();
+        }
+
+        //zad9.Napisz funkcję co przyjmuje(2 argumenty) syringa np 3,9,27,81  i n.
         //Na tej podstawie wyświetli n elementów tego ciągu (w jednej linijce)
 
-        //zad10.Napisz funkcję no wyświetli n elementów ciągu Fibonacciego.
+        public void Exercise9(string inp, int n)
+        {
+
+        }
+
+        //zad10.Napisz funkcję no wyświetli n elementów ciągu Fibonacciego. 1 1 2 3 5 8 13 21... 
+
+        public void Exercise10(int n)
+        {
+            int a = 1;
+            int b = 1;
+            int c;
+            Console.Write("1 1 ");
+            while(n > 0)
+            {
+                c = a + b;
+                Console.Write($"{c} ");
+                a = b;
+                b = c;
+                n--;
+
+            }
+            Console.WriteLine();
+        }
 
         //zad11.Napisz funkcję która prosi o podanie stringu i n (różnych liter). 
         //Niech funkcja wyświetli ile jakich liter znajduje się w podanym stringu.
+
+        public void Exercise11(string inp, int n)
+        {
+
+        }
+
     }
 }
