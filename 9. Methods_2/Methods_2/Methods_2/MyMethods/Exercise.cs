@@ -76,10 +76,10 @@ namespace Methods_2.MyMethods
 
         //zad6.Napisz funkcję co przekształci tablice na listę.
 
-        public List<double> Exercise6(double[] area) 
+        public List<double> Exercise6(double[] area)
         {
             List<double> list = new List<double>();
-            foreach(double elment in area)
+            foreach (double elment in area)
             {
                 list.Add(elment);
             }
@@ -98,7 +98,7 @@ namespace Methods_2.MyMethods
 
         public void Exercise6Iteration(List<double> list)
         {
-            foreach(double elment in list)
+            foreach (double elment in list)
             {
                 Console.Write($"{elment}\t");
             }
@@ -109,10 +109,10 @@ namespace Methods_2.MyMethods
         public int[] Exercise7(int k, int b)
         {
             Random rnd = new Random();
-            int[] array = new int[rnd.Next(10,20)];
-            for(int i = 0; i < array.Length; i++)
+            int[] array = new int[rnd.Next(10, 20)];
+            for (int i = 0; i < array.Length; i++)
             {
-                array[i] = rnd.Next(k,b);
+                array[i] = rnd.Next(k, b);
             }
             return array;
         }
@@ -149,7 +149,18 @@ namespace Methods_2.MyMethods
 
         public void Exercise9(string inp, int n)
         {
-
+            string[] array = inp.Split(',');
+            double el1 = double.Parse(array[0]);
+            double el2 = double.Parse(array[1]);
+            double q = el2 / el1;
+            Console.Write($"{el1} ");
+            while (n > 0)
+            {
+                Console.Write($"{el1 * q} ");
+                el1 *= q;
+                n--;
+            }
+            Console.WriteLine();
         }
 
         //zad10.Napisz funkcję no wyświetli n elementów ciągu Fibonacciego. 1 1 2 3 5 8 13 21... 
@@ -160,7 +171,7 @@ namespace Methods_2.MyMethods
             int b = 1;
             int c;
             Console.Write("1 1 ");
-            while(n > 0)
+            while (n > 0)
             {
                 c = a + b;
                 Console.Write($"{c} ");
@@ -170,14 +181,6 @@ namespace Methods_2.MyMethods
 
             }
             Console.WriteLine();
-        }
-
-        //zad11.Napisz funkcję która prosi o podanie stringu i n (różnych liter). 
-        //Niech funkcja wyświetli ile jakich liter znajduje się w podanym stringu.
-
-        public void Exercise11(string inp, int n)
-        {
-
         }
 
     }

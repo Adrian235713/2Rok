@@ -33,7 +33,7 @@ namespace Methods_2
             Console.WriteLine("---------------------------------------------");
             exercise.Exercise8("6,8,10,12", 20);
             Console.WriteLine("---------------------------------------------");
-
+            exercise.Exercise9("3,9,27",10);
             Console.WriteLine("---------------------------------------------");
             exercise.Exercise10(10);
             Console.WriteLine("---------------------------------------------");
