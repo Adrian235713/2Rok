@@ -14,7 +14,7 @@ namespace RPG_project
             // hp atack mana gold 
             while (true)
             {
-                Console.WriteLine("Mage - a \t Warrior -b");
+                Console.WriteLine("Paladin - a \t Warrior -b");
                 string inp = Console.ReadLine();
                 if (inp == "a")
                 {
@@ -39,7 +39,5 @@ namespace RPG_project
                 return false;
             return true;
         }
-
-
     }
 }

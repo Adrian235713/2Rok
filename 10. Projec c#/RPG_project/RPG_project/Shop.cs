@@ -11,7 +11,7 @@ namespace RPG_project
         public static int[] shop(int[] character, int mxaHp, int maxMana)
         {
             Console.WriteLine("Witaj w moim sklepie!!!");
-            Console.WriteLine("1 - heal 2g \t 2 - upHp - 5g \t 3 - upAtac 3g \t 4 - upMana 3g \t dowolny klawisz - wyjdz");
+            Console.WriteLine("1 - heal 2g \t 2 - upAtac 3g \t 3 - upMana 3g \t dowolny klawisz - wyjdz");
 
             int inp = int.Parse(Console.ReadLine());
             switch (inp)
@@ -19,10 +19,8 @@ namespace RPG_project
                 case 1:
                     return heal(character, mxaHp);
                 case 2:
-                    return upHp(character);
-                case 3:
                     return upAtac(character);
-                case 4:
+                case 3:
                     return upMana(character);
             }
             Console.WriteLine("Wychodzisz ze sklepu");
@@ -55,21 +53,34 @@ namespace RPG_project
             return character;
         }
 
-        public static int[] upHp(int[] character)
-        {
-
-            return character;
-        }
 
         public static int[] upAtac(int[] character)
         {
-
+            if (character[3] >= 10)
+            {
+                Console.WriteLine("Twoj atak zwiekszyl sie o 5 wydajesz 10 zlota");
+                character[3] -= 10;
+                character[1] += 5;
+            }
+            else
+            {
+                Console.WriteLine("Nie masz wystarczjaco goolda");
+            }
             return character;
         }
 
         public static int[] upMana(int[] character)
         {
-
+            if (character[3] >= 10)
+            {
+                Console.WriteLine("Twoja mana zwiszkyla sie o 50 wydajesz 10 zlota");
+                character[3] -= 10;
+                character[2] += 50;
+            }
+            else
+            {
+                Console.WriteLine("Nie masz wystarczjaco goolda");
+            }
             return character;
         }
     }

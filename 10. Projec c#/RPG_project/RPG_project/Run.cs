@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace RPG_project
 {
-    internal class Program
+    internal class Run
     {
         static void Main(string[] args)
         {
             // hp atack mana gold 
             int[] character = CharacterClass.characterClassSelection();
+            int round = 0;
+
             int maxHp = character[0];
             int maxMana = character[2];
-            int round = 0;
 
             while (CharacterClass.isAlive(character))
             {
@@ -28,6 +29,7 @@ namespace RPG_project
                         break;
                     case "s":
                         Console.WriteLine("Spele");
+                        Spels.SpelsBook(character, maxHp, maxMana);
                         break;
                     case "w":
                         Shop.shop(character, maxHp, maxMana);
