@@ -1,0 +1,8 @@
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\bin\Debug\12.ObjectsAndClasses.exe.config
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\bin\Debug\12.ObjectsAndClasses.exe
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\bin\Debug\12.ObjectsAndClasses.pdb
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\obj\Debug\12.ObjectsAndClasses___Get_Set.csproj.AssemblyReference.cache
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\obj\Debug\12.ObjectsAndClasses___Get_Set.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\obj\Debug\12.ObjectsAndClasses___Get_Set.csproj.CoreCompileInputs.cache
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\obj\Debug\12.ObjectsAndClasses.exe
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\12.ObjectsAndClasses\obj\Debug\12.ObjectsAndClasses.pdb
