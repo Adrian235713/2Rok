@@ -17,15 +17,17 @@ namespace Person_zadanie
         //Napisz klasę, życie co będzie obsługiwała n.osób (lista) i pozwoli na modyfikować dane wszystkich użytkowników.
         static void Main(string[] args)
         {
-            Console.WriteLine("TEST");
+            Console.WriteLine("TEST - pusty obiekt");
             Person TEST1 = new Person();
             TEST1.Information();
 
-            Console.WriteLine("TEST 2");
-            Person TEST2 = new Person(1, "", "", 0, height: 0,0);
+            Console.WriteLine("TEST 2 - zle inputy ");
+            Person TEST2 = new Person(2, "", "", 0, height: 0,0);
             TEST2.Information();
 
- 
+            Console.WriteLine("TEST 3 - Poprawne dane ");
+            Person TEST3 = new Person(3, "Ala", "Alowata", 20, height: 190, 200);
+            TEST3.Information();
 
             Console.ReadKey();
         }
