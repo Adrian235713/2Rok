@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Person_zadanie.Classes
 {
@@ -41,7 +38,10 @@ namespace Person_zadanie.Classes
             {
                 if (value.Length >= 20 || value.Length < 1)
                     name = "WRONG INPUT";
-                name = value;
+                else
+                {
+                    name = value;
+                }
             }
         }
         public string LastName
@@ -49,9 +49,12 @@ namespace Person_zadanie.Classes
             get { return lastName; }
             set
             {
-                if (value.Length >= 20 || value.Length <= 1)
+                if (value.Length >= 20 || value.Length < 1)
                     lastName = "WRONG INPUT";
-                lastName = value;
+                else
+                {
+                    lastName = value;
+                }
             }
         }
 
@@ -94,12 +97,12 @@ namespace Person_zadanie.Classes
         public void Information()
         {
             Console.WriteLine("=======================================");
-            Console.WriteLine($"Id\t{Id}");
-            Console.WriteLine($"Name\t{Name}");
+            Console.WriteLine($"Id\t\t{Id}");
+            Console.WriteLine($"Name\t\t{Name}");
             Console.WriteLine($"LastName\t{LastName}");
-            Console.WriteLine($"Age\t{Age}");
-            Console.WriteLine($"Height\t{Height}");
-            Console.WriteLine($"Iq\t{Iq}");
+            Console.WriteLine($"Age\t\t{Age}");
+            Console.WriteLine($"Height\t\t{Height}");
+            Console.WriteLine($"Iq\t\t{Iq}");
             Console.WriteLine("=======================================");
         }
 

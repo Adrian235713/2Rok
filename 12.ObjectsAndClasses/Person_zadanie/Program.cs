@@ -18,10 +18,12 @@ namespace Person_zadanie
         static void Main(string[] args)
         {
             Console.WriteLine("TEST");
-            Person TEST = new Person();
-            TEST.Information();
+            Person TEST1 = new Person();
+            TEST1.Information();
 
-
+            Console.WriteLine("TEST 2");
+            Person TEST2 = new Person(1, "Ala", "Aloata", 23, 200,200);
+            TEST2.Information();
 
             string x = "fgdgsdfgdfsgdfsgdfsgdfsgdfsgdfgdfsg";
             Console.WriteLine(x.Length);
