@@ -36,7 +36,7 @@ namespace Person_zadanie.Classes
             get { return name; }
             set 
             {
-                if (value.Length >= 20 || value.Length < 1 || value == string.Empty)
+                if (value.Length >= 20 || String.IsNullOrEmpty(value))
                     name = "WRONG INPUT";
                 else
                 {
@@ -49,7 +49,7 @@ namespace Person_zadanie.Classes
             get { return lastName; }
             set
             {
-                if (value.Length >= 20 || value.Length < 1 || value == string.Empty)
+                if (value.Length >= 20 || String.IsNullOrEmpty(value))
                     lastName = "WRONG INPUT";
                 else
                 {
