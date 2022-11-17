@@ -48,7 +48,7 @@ namespace _12.ObjectsAndClasses
                 {
                     if (value >= 500)
                     {
-                        value = null;
+                        speed = -1;
                     }
                     else
                     {

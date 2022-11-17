@@ -29,14 +29,14 @@ namespace Person_zadanie.Classes
 
         }
 
-        // Propertys validation 
+        // PROPERTIES  validation 
         //----------------------------------------------------------------------------
         public string Name
         {
             get { return name; }
             set 
             {
-                if (value.Length >= 20 || value.Length < 1)
+                if (value.Length >= 20 || value.Length < 1 || value == null)
                     name = "WRONG INPUT";
                 else
                 {
@@ -49,7 +49,7 @@ namespace Person_zadanie.Classes
             get { return lastName; }
             set
             {
-                if (value.Length >= 20 || value.Length < 1)
+                if (value.Length >= 20 || value.Length < 1 || value == null)
                     lastName = "WRONG INPUT";
                 else
                 {
@@ -58,38 +58,47 @@ namespace Person_zadanie.Classes
             }
         }
 
-        public int Age
+        public int? Age
         {
             get { return age; }
             set 
             { 
-                if(value >= 155 || value <= 0)
-                    age = 0;
-                age = value;
+                if(value >= 155 || value <= 1 || value == null)
+                    age = -1;
+                else
+                {
+                    age = (int)value;
+                }
             }
         }
 
-        public double Height
+        public double? Height
         {
             get { return height; }
             set
             {
-                if (value >= 350 || value <= 0)
-                    height = 0;
-                height = value;
+                if (value >= 350 || value <= 1 || value == null)
+                    height = -1;
+                else
+                {
+                    height = (double)value;
+                }
             }
         }
 
-        public int Iq
+        public int? Iq
         {
             get { return iq; }
             set
             {
-                if(value <= 30 || value >= 350)
+                if(value <= 30 || value >= 350 || value == null)
                 {
-                    iq = 0;
+                    iq = -1;
                 }
-                iq = value;
+                else
+                {
+                    iq = (int)value;
+                }
             }
         }
         //----------------------------------------------------------------------------

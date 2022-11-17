@@ -22,11 +22,10 @@ namespace Person_zadanie
             TEST1.Information();
 
             Console.WriteLine("TEST 2");
-            Person TEST2 = new Person(1, "Ala", "Aloata", 23, 200,200);
+            Person TEST2 = new Person(1, "", "", 0, height: 0,0);
             TEST2.Information();
 
-            string x = "fgdgsdfgdfsgdfsgdfsgdfsgdfsgdfgdfsg";
-            Console.WriteLine(x.Length);
+ 
 
             Console.ReadKey();
         }
