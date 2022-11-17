@@ -1,0 +1,8 @@
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\bin\Debug\Person_zadanie.exe.config
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\bin\Debug\Person_zadanie.exe
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\bin\Debug\Person_zadanie.pdb
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\obj\Debug\Person_zadanie.csproj.AssemblyReference.cache
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\obj\Debug\Person_zadanie.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\obj\Debug\Person_zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\obj\Debug\Person_zadanie.exe
+C:\Users\Nubi\Desktop\2Rok\12.ObjectsAndClasses\Person_zadanie\obj\Debug\Person_zadanie.pdb
