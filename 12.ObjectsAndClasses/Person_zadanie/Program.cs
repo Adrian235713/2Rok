@@ -29,6 +29,9 @@ namespace Person_zadanie
             Person TEST3 = new Person(3, "Ala", "Alowata", 20, height: 190, 200);
             TEST3.Information();
 
+            string s = "";
+            Console.WriteLine(s.Length);
+
             Console.ReadKey();
         }
     }
