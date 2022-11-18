@@ -6,17 +6,18 @@ namespace Person_zadanie.Classes
     internal class Person
     {
         //Napisz klasę, która tworzy osobę.(id, imie, nazwisko wiek, wzrost, wagę, IQ, lista umiejętności; Wykonaj walidację  danych get i set)
-        public int Id;
+        public string Id;
         public string name;
         public string lastName;
         public int age;
         public double height;
         public int iq;
-        public new List<string> Skills = new List<string>();
+        public List<string> Skills = new List<string>();
 
-        public Person(int id, string name, string lastName, int age, double height, int iq)
+        //Konstuktory 
+        public Person(string name, string lastName, int age, double height, int iq)
         {
-            Id = id;
+            Id = generateUniqueID();
             Name = name;
             LastName = lastName;
             Age = age;
@@ -26,10 +27,41 @@ namespace Person_zadanie.Classes
 
         public Person()
         {
-
+            Id = generateUniqueID();
+            Name = "";
+            LastName = "";
+            Age = 0;
+            Height = 0;
+            Height = 0;
+            Iq = 0;
         }
 
+        // A czemu nie mogę poprostu? Overloading zrobić ? 
+
+        //public Person()
+        //{
+
+        //}
+
         // PROPERTIES  validation 
+
+        //Get i set sie wtedy nie odpali XD 
+
+        //----------------------------------------------------------------------------
+        //Let's generate unique ID
+
+        private string generateUniqueID()
+        {
+            long ticks = DateTime.Now.Ticks;
+            // Gets the number of ticks that represent the date and time of this instance.
+            string guid = Guid.NewGuid().ToString();
+            //This is a convenient static method that you can call to get a new Guid.
+            //The method creates a Version 4 Universally Unique Identifier
+            //(UUID) as described in RFC 4122, Sec. 4.4.
+            //The returned Guid is guaranteed to not equal Guid.Empty.
+            return ticks.ToString() + "-" + guid;
+        }
+
         //----------------------------------------------------------------------------
         public string Name
         {
