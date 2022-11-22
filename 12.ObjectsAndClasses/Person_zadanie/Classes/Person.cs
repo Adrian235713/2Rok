@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 
 namespace Person_zadanie.Classes
 {
@@ -12,7 +12,6 @@ namespace Person_zadanie.Classes
         public int age;
         public double height;
         public int iq;
-        public List<string> Skills = new List<string>();
 
         //Konstuktory 
         public Person(string name, string lastName, int age, double height, int iq)
@@ -31,7 +30,6 @@ namespace Person_zadanie.Classes
             Name = "";
             LastName = "";
             Age = 0;
-            Height = 0;
             Height = 0;
             Iq = 0;
         }
@@ -109,7 +107,7 @@ namespace Person_zadanie.Classes
             get { return height; }
             set
             {
-                if (value >= 350 || value <= 1 || value == null)
+                if (value >= 350 || value <= 100 || value == null)
                     height = -1;
                 else
                 {
@@ -134,7 +132,6 @@ namespace Person_zadanie.Classes
             }
         }
         //----------------------------------------------------------------------------
-
         public void Information()
         {
             Console.WriteLine("=======================================");
@@ -147,8 +144,45 @@ namespace Person_zadanie.Classes
             Console.WriteLine("=======================================");
         }
 
+        public void ChangeName()
+        {
+            Console.WriteLine("New name ?");
+            string inp = Console.ReadLine();
+            Console.WriteLine($"Odl Name {Name} -> New name {inp}");
+            Name = inp;
+        }
 
+        public void ChangeLastName()
+        {
+            Console.WriteLine("New Last Name ?");
+            string inp = Console.ReadLine();
+            Console.WriteLine($"Old LastName {lastName} -> New name {inp}");
+            LastName = inp;
+        }
 
+        public void ChangeAge()
+        {
+            Console.WriteLine("New Age ?");
+            int inp = Int32.Parse(Console.ReadLine());
+            Console.WriteLine($"Old Age  {age} -> New age {inp}");
+            age = inp;
+        }
+
+        public void ChangeHeight()
+        {
+            Console.WriteLine("New Height ?");
+            double inp = Int64.Parse(Console.ReadLine());
+            Console.WriteLine($"Old Height  {height} -> New age {inp}");
+            height = inp;
+        }
+
+        public void ChangeIq()
+        {
+            Console.WriteLine("New iq");
+            int inp = Int32.Parse(Console.ReadLine());
+            Console.WriteLine($"Old Iq  {iq} -> New age {inp}");
+            iq = inp;
+        }
 
     }
 }
