@@ -1,0 +1,3 @@
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\13.InheritanceInterfaceAbstraction\13.InheritanceInterfaceAbstraction\obj\Debug\13.InheritanceInterfaceAbstraction.csproj.AssemblyReference.cache
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\13.InheritanceInterfaceAbstraction\13.InheritanceInterfaceAbstraction\obj\Debug\13.InheritanceInterfaceAbstraction.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaelt\OneDrive\Pulpit\2Rok\13.InheritanceInterfaceAbstraction\13.InheritanceInterfaceAbstraction\obj\Debug\13.InheritanceInterfaceAbstraction.csproj.CoreCompileInputs.cache
